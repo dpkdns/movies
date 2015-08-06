@@ -10,4 +10,4 @@ app.get('/railways/pnr/:pnr', function(req, res) {
 	google.railways_pnr(res, req.params.pnr);
 })
 
-app.listen(process.env.PORT || 8080);
+app.listen(process.env.PORT);
